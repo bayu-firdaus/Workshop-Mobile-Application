@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Disini saya mengatur pada setiap fragment seperti diberi judul,
+        memanggil icon yang sudah dibuat -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/menu_likes"
+        android:title="@string/likes"
+        android:icon="@drawable/likes"/>
+    <item
+        android:id="@+id/menu_uploads"
+        android:title="@string/uploads"
+        android:icon="@drawable/upload"/>
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search"
+        android:icon="@drawable/search"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/profile"/>
+</menu>
